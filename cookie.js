@@ -1,4 +1,7 @@
-// Opción 1: Inicializar cookieBar (genérico, en inglés)
+// Opción 2: Personalizar mensaje (indicar clase)
 $(document).ready(function() {
-  $.cookieBar();
+  $('.cookie-message').cookieBar({
+    closeButton: '.close'
+  });
 });
+
