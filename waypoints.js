@@ -1,4 +1,5 @@
 $(document).ready(function() {
+        
         var waypoint = new Waypoint({
           element: document.getElementById('tres'),
           handler: function(direction) {
