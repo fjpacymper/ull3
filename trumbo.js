@@ -1,5 +1,4 @@
-<!-- HTML5 -->
-<textarea class="editor"></textarea>
+
 
 /* Javascript */
 $('.editor').trumbowyg({
