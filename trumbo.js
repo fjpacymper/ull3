@@ -9,7 +9,7 @@ $(document).ready(function() {
         // del código HTML
         lang: 'es', // Idioma (es.min.js incluido)
           btns: [
-                  ['bold', 'italic' 'underline', 'strikethrough'],
+                  ['bold', 'italic', 'underline', 'strikethrough'],
                   ['superscript', 'subscript'],
                   ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
                   ['unorderedList', 'orderedList'],
