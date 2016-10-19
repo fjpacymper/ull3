@@ -3,9 +3,9 @@ $(document).ready(function() {
 var waypoint = new Waypoint({
   element: document.getElementById('tres'),
   handler: function(direction) {
-    console.log('¡Has pasado por aquí!');
+    alert.log('¡Has pasado por aquí!');
     if (direction == 'down') {
-      console.log('¡Hacia abajo!');
+      alert.log('¡Hacia abajo!');
       this.destroy();                     // Sólo lo detectará una vez
     }
   }
