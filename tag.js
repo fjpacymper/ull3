@@ -2,6 +2,9 @@ $(document).ready(function() {
 $('#input-tags').selectize({
     delimiter: ',',
     persist: false,
+    plugins: ['remove_button', 
+              'drag_drop',
+              'optgroup_columns'],    
     create: function(input) {
       return { 
         value: input,
