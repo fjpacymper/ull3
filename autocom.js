@@ -1,5 +1,3 @@
-<!-- HTML5 -->
-<input id="datos">
 
 /* Javascript */
 var input = document.getElementById('datos');
